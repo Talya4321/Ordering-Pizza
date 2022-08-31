@@ -1,0 +1,44 @@
+h1 {
+    background-color: peachpuff;
+    border-radius: 20px;
+    color: white;
+    font-size: 50;
+    margin-left: 700px;
+    margin-right: 700px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body {
+    background-color: lightgoldenrodyellow;
+}
+h3 {
+    background-color: white;
+    border-radius: 20px;
+    color: peachpuff;
+    font-size: 40;
+    margin-left: 710px;
+    margin-right: 710px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#input_size{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20;
+}
+input{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20;
+}
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20;
+    background-color: peachpuff;
+    color: white;
+    border-color: white;
+}

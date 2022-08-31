@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Ordering Pizza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <center>
+        <br>
+        <h1>Order Your Pizza</h1>
+        <br>
+
+        <h3>Pick Your Size</h3>
+        <select name="Size" id="input_size">
+            <option value="small">small</option>
+            <option value="medium">medium</option>
+            <option value="large">large</option>
+          </select>
+        <!--<input type="text" id="input_size" placeholder="Size">-->
+        <br>
+        <br>
+        <h3>Add Your Toppings</h3>
+        <div>
+            <input type="text" id="input_topping_1" placeholder="Topping">
+            <input type="text" id="input_topping_2" placeholder="Topping">
+            <input type="text" id="input_topping_3" placeholder="Topping">
+            <input type="text" id="input_topping_4" placeholder="Topping">
+            <input type="text" id="input_topping_5" placeholder="Topping">
+        </div>
+        <br>
+        <br>
+        <button id="button_order" onclick="view_order()">View Your Order</button>
+        <br>
+        <p id="ur_order"></p>
+        <div id="display_toppings_without_comma"></div>
+    </center>
+</body>
+
+</html>
